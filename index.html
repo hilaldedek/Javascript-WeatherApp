@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="./img/cloudy.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css">
+    <script src="js/aes.js"></script>
+    <script src="js/Extentions.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="top-banner">
+        <div class="container">
+          <center>
+            <img src="./img/weather-news.png" alt="Bank logo" class="nav__logo"
+              id="logo" width="160rem" height="160rem"/>
+              <h1 class="heading" style="color: #1d296c;">
+                Weather App</h1>
+          </center>
+          <div class="container">
+            <center>
+              <form class="content" >
+                <img src="./img/cityscape.png" alt="" width="50rem" height="50rem" class="cityimg">
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit">SEARCH</button>
+              </form>
+              <span class="msg"></span>
+            </center>
+          </div>
+        </div>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities">
+          </ul>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="container">
+          <img src="./img/developer.png" width="70rem" height="70rem" alt="">
+          <small>Coded by Hilal Dedek
+          </small>
+          <div class="contact">
+            <button><img src="./img/linkedin.png" alt="" width="30rem" height="30rem"><a href="https://www.linkedin.com/in/hil%C3%A2ldedek/" target="_blank"> Linkedin</a></button>
+            <button><img src="./img/github.png" alt="" width="30rem" height="30rem"> <a href="https://github.com/hilaldedek" target="_blank"> Github</a></button>
+          </div>
+        </div>
+      </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
